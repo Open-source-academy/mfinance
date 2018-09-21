@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/otp_bg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:text="Enter Customer mobile number to find collection details"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/ed_mobile"
+        android:layout_width="295dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="141dp"
+        android:ems="10"
+        android:hint="Enter Customer Mobile Number"
+        android:inputType="phone" />
+
+    <ImageView
+        android:id="@+id/select_btn"
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="143dp"
+        android:src="@drawable/icon_user_search" />
+
+
+
+
+    <!-- Spinner Dropdown -->
+    <Spinner
+        android:id="@+id/spinner"
+        style="@android:style/Widget.Spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/spinner_bg"
+        android:popupBackground="@color/colorPrimaryDark"
+        android:prompt="@string/loan_id"
+        android:spinnerMode="dropdown" />
+
+
+
+
+    <Button
+        android:id="@+id/select_view"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/buttonshape"
+        android:text="view"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+
+
+</RelativeLayout>

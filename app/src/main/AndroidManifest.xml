@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abile.microfinance">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/microfinance"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Activity_splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_Login"></activity>
+        <activity android:name=".Activity_Register"></activity>
+        <activity android:name=".Activity_verify_password"></activity>
+        <activity android:name=".Activity_Main_Menu"></activity>
+        <activity android:name=".Customer_List_Activity"></activity>
+        <activity android:name=".Activity_get_Customer_loan_data"></activity>
+        <activity android:name=".Activity_customer_collection_entry"></activity>
+        <activity android:name=".Activity_Create_Customer"></activity>
+        <activity android:name=".Activity_Customer_Loan_Entry"></activity>
+        <activity android:name=".Activity_Customer_Loan_Result"></activity>
+        <activity android:name=".TimeLineActivity"></activity>
+        <activity android:name=".Activity_Reports_menu"></activity>
+        <activity android:name=".Reports_Inputs_Layout"></activity>
+
+    </application>
+
+</manifest>

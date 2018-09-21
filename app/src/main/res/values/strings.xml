@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MicroFinance</string>
+    <string name="name_error">Name is required</string>
+    <string name="fname_error">Father Name is required</string>
+    <string name="mobile_error">Mobile No. is Required</string>
+    <string name="address_error">Address is Required</string>
+    <string name="loan_error">Loan Amount is Required</string>
+    <string name="interest_error">Interest is Required</string>
+    <string name="days_error">Enter Number of Days Details</string>
+    <string name="month_error">Enter Number of months Details</string>
+    <string name="week_error">Enter Number of Weeks Details</string>
+    <string name="due_error">Enter The Due Amount</string>
+    <string name="filter">Type here to filter</string>
+    <string name="loan_id">Select Loan Id</string>
+    <string name="Export">Export</string>
+    <string name="Import">Import</string>
+
+    <string name="dialog_success_title">Success</string>
+    <string name="dialog_success_booking_message">Check your message for your loan details!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="dialog_add_user_btn_add">Add</string>
+    <string name="dialog_add_user_title">Add New User</string>
+    <string name="activity_main_btn_add_user">Add User</string>
+    <string name="activity_main_btn_show_success">Show Success</string>
+    <string name="dialog_add_user_message">Type username and press add button to add new user to a project.</string>
+
+
+    <string name="calendar_date_picker_result_values">Year: %1$s\nMonth: %2$s\nDay: %3$s</string>
+    <string name="expiration_picker_result_value">%1$s/%2$s</string>
+
+</resources>

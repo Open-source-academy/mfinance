@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_bg_new">
+
+
+    <LinearLayout
+        android:id="@+id/Image_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/microfinance_logo" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/first_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!--  News Feed Button -->
+        <Button
+            android:id="@+id/day_report"
+            style="@style/DashboardButton"
+            android:layout_width="158dp"
+            android:layout_height="137dp"
+            android:layout_marginLeft="40dp"
+            android:drawableTop="@drawable/day_report"
+            android:text="Daily Reports"
+            android:textColor="@color/pink"/>
+
+        <!--  Friends Button -->
+        <Button
+            android:id="@+id/week_report"
+            style="@style/DashboardButton"
+            android:layout_width="158dp"
+            android:layout_height="137dp"
+            android:layout_marginRight="30dp"
+            android:drawableTop="@drawable/week_report"
+            android:text="Weekly Reports"
+            android:textColor="@color/pink"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/second_row"
+        android:orientation="horizontal">
+        <!--  News Feed Button -->
+        <Button
+            android:id="@+id/month_report"
+            style="@style/DashboardButton"
+            android:layout_width="158dp"
+            android:layout_height="137dp"
+            android:layout_marginLeft="40dp"
+            android:drawableTop="@drawable/month_report"
+            android:text="Monthly Reports"
+            android:textColor="@color/pink"/>
+
+        <!--  Friends Button -->
+        <Button
+            android:id="@+id/year_report"
+            style="@style/DashboardButton"
+            android:layout_width="158dp"
+            android:layout_height="137dp"
+            android:layout_marginRight="30dp"
+            android:drawableTop="@drawable/year_report"
+            android:text="Yearly Reports"
+            android:textColor="@color/pink"/>
+
+    </LinearLayout>
+
+</LinearLayout>
